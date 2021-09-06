@@ -43,7 +43,4 @@ public class ImovelController {
         return imovelService.obtemMaiorQuarto(nome);
     }
 
-
-
-
 }

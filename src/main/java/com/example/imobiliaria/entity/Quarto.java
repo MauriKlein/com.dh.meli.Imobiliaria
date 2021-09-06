@@ -4,14 +4,9 @@ public class Quarto {
     private String nome;
     private double largura;
     private double comprimento;
-    private double tamanho;
-
-    public void setTamanho(double tamanho) {
-        this.tamanho = tamanho;
-    }
 
     public double getTamanho() {
-        return tamanho;
+        return largura*comprimento;
     }
 
     public String getNome() {
